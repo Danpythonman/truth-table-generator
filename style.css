@@ -1,0 +1,61 @@
+#formula-input {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+table {
+    display: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td {
+    border: 5px solid #999;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background-color: steelblue;
+}
+
+th:last-child {
+    background-color: mediumslateblue;
+}
+
+td.trueValue {
+    background-color: mediumseagreen;
+}
+
+td.falseValue {
+    background-color: indianred;
+}
+
+#error-message {
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    background-color: salmon;
+    padding: 20px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#instructions {
+    margin-top: 30px;
+    background-color: #bbb;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}

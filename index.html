@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Truth Table Generator</title>
+    </head>
+    <body>
+        <h1>Truth Table Generator</h1>
+        <input type="text" name="formula-input" id="formula-input" placeholder="Enter Boolean expression here">
+        <p id="error-message"></p>
+        <table id="truth-table"></table>
+        <div id="instructions">
+            <h2>Instructions</h2>
+            <p>Variables must be either one letter or one letter followed by numbers.</p>
+            <p>Literal true can be "⊤", "true", or "TRUE".</p>
+            <p>Literal true can be "⊥", "false", or "FALSE".</p>
+            <p>Disjunctive operator (or) can be "|", "v", "∨", "or", or "OR".</p>
+            <p>Conjunctive operator (and) can be "&", "^", "∧", "and", or "AND".</p>
+            <p>Negation operator (not) can be "!", "~", "¬", "not", or "NOT".</p>
+            <p>Conditional operator (if) can be "->", "→", "if", or "IF".</p>
+            <p>Biconditional operator (if and only if) can be "<->", "↔", "iff", or "IFF".</p>
+        </div>
+        <script src="/index.js"></script>
+        <script src="/main.js"></script>
+    </body>
+</html>
